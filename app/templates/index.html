@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <div class="row">
+        <p>
+        <h4>
+            Transactional online retail data set used for Cohort Analysis.
+        Cohort analyses help companies to understand
+        vital metrics such as churn, customer lifecycle, and customer lifetime value.
+        The basic structure of the dataset can be seen here. The original dataset can be found
+            in the link below
+    </h4>
+        </p>
+    </div>
+
+<table class="table table-hover">
+     <thead>
+          <tr>
+             <tr>
+              <th>InvoiceNo</th>
+              <th>StockCode At</th>
+              <th>Description</th>
+              <th>Quantity</th>
+              <th>InvoiceDate</th>
+              <th>UnitPrice At</th>
+              <th>CustomerID</th>
+              <th>Country</th>
+
+          </tr>
+
+          </tr>
+     </thead>
+     <tbody>
+     {% for online in online_dataset %}
+            <tr>
+               <td>{{ online['InvoiceNo'] }}...</td>
+               <td>{{ online['StockCode'] }}</td>
+               <td>{{ online['Description'] }}</td>
+               <td>{{ online['Quantity'] }}</td>
+                <td>{{ online['InvoiceDate'] }}</td>
+                <td>{{ online['UnitPrice'] }}</td>
+                <td>{{ online['CustomerID'] }}</td>
+                <td>{{ online['Country'] }}</td>
+          </tr>
+      {% endfor %}
+     </tbody>
+      </table>
+       <div class="row">
+        <p>
+
+            <a class="navbar-brand" href="http://archive.ics.uci.edu/ml/datasets/Online+Retail" target="_blank">The original data set</a>
+        </p>
+    </div>
+{% endblock %}

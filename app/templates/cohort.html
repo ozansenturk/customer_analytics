@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+
+    <h1>Cohort Analysis with Plotly and Flask</h1>
+    <div class="row">
+
+
+
+     <div class="chart" id="heatmap">
+     <script>
+         var graphs = {{plot | safe}};
+
+         {#var graphs = {{graphJSON | safe}};#}
+         {#Plotly.plot('chart',graphs,{});#}
+
+         Plotly.newPlot('heatmap', // the ID of the div, created above
+                        graphs.data,
+                        graphs.layout || {});
+
+                </script>
+    </div>
+
+    </div>
+{% endblock %}

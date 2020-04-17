@@ -1,0 +1,68 @@
+DEBUG:app:online.head    Unnamed: 0  InvoiceNo StockCode  ... CustomerID         Country InvoiceMonth
+0      416792     572558     22745  ...      14286  United Kingdom   2011-10-01
+1      482904     577485     23196  ...      16360  United Kingdom   2011-11-01
+2      263743     560034     23299  ...      13933  United Kingdom   2011-07-01
+3      495549     578307    72349B  ...      17290  United Kingdom   2011-11-01
+4      204384     554656     21756  ...      17663  United Kingdom   2011-05-01
+
+[5 rows x 10 columns] 
+DEBUG:app:online.info None 
+DEBUG:app:cohort_data.head()   CohortMonth  CohortIndex  CustomerID
+0  2010-12-01            0         716
+1  2010-12-01            1         246
+2  2010-12-01            2         221
+3  2010-12-01            3         251
+4  2010-12-01            4         245 
+DEBUG:app:cohort_data.info() None 
+DEBUG:app:cohort_counts.head() CohortIndex     0      1      2      3   ...     9      10     11     12
+CohortMonth                              ...                            
+2010-12-01   716.0  246.0  221.0  251.0  ...  265.0  254.0  348.0  172.0
+2011-01-01   332.0   69.0   82.0   81.0  ...  102.0  124.0   45.0    NaN
+2011-02-01   316.0   58.0   57.0   83.0  ...   95.0   28.0    NaN    NaN
+2011-03-01   388.0   63.0  100.0   76.0  ...   38.0    NaN    NaN    NaN
+2011-04-01   255.0   49.0   52.0   49.0  ...    NaN    NaN    NaN    NaN
+
+[5 rows x 13 columns] 
+DEBUG:app:retention.head() CohortIndex     0     1     2     3     4   ...    8     9     10    11    12
+CohortMonth                                 ...                              
+2010-12-01   100.0  34.4  30.9  35.1  34.2  ...  33.5  37.0  35.5  48.6  24.0
+2011-01-01   100.0  20.8  24.7  24.4  33.1  ...  31.3  30.7  37.3  13.6   NaN
+2011-02-01   100.0  18.4  18.0  26.3  26.9  ...  27.2  30.1   8.9   NaN   NaN
+2011-03-01   100.0  16.2  25.8  19.6  21.4  ...  27.6   9.8   NaN   NaN   NaN
+2011-04-01   100.0  19.2  20.4  19.2  18.4  ...   6.7   NaN   NaN   NaN   NaN
+
+[5 rows x 13 columns] 
+DEBUG:app:online.head    Unnamed: 0  InvoiceNo StockCode  ... CustomerID         Country InvoiceMonth
+0      416792     572558     22745  ...      14286  United Kingdom   2011-10-01
+1      482904     577485     23196  ...      16360  United Kingdom   2011-11-01
+2      263743     560034     23299  ...      13933  United Kingdom   2011-07-01
+3      495549     578307    72349B  ...      17290  United Kingdom   2011-11-01
+4      204384     554656     21756  ...      17663  United Kingdom   2011-05-01
+
+[5 rows x 10 columns] 
+DEBUG:app:online.info None 
+DEBUG:app:cohort_data.head()   CohortMonth  CohortIndex  CustomerID
+0  2010-12-01            0         716
+1  2010-12-01            1         246
+2  2010-12-01            2         221
+3  2010-12-01            3         251
+4  2010-12-01            4         245 
+DEBUG:app:cohort_data.info() None 
+DEBUG:app:cohort_counts.head() CohortIndex     0      1      2      3   ...     9      10     11     12
+CohortMonth                              ...                            
+2010-12-01   716.0  246.0  221.0  251.0  ...  265.0  254.0  348.0  172.0
+2011-01-01   332.0   69.0   82.0   81.0  ...  102.0  124.0   45.0    NaN
+2011-02-01   316.0   58.0   57.0   83.0  ...   95.0   28.0    NaN    NaN
+2011-03-01   388.0   63.0  100.0   76.0  ...   38.0    NaN    NaN    NaN
+2011-04-01   255.0   49.0   52.0   49.0  ...    NaN    NaN    NaN    NaN
+
+[5 rows x 13 columns] 
+DEBUG:app:retention.head() CohortIndex     0     1     2     3     4   ...    8     9     10    11    12
+CohortMonth                                 ...                              
+2010-12-01   100.0  34.4  30.9  35.1  34.2  ...  33.5  37.0  35.5  48.6  24.0
+2011-01-01   100.0  20.8  24.7  24.4  33.1  ...  31.3  30.7  37.3  13.6   NaN
+2011-02-01   100.0  18.4  18.0  26.3  26.9  ...  27.2  30.1   8.9   NaN   NaN
+2011-03-01   100.0  16.2  25.8  19.6  21.4  ...  27.6   9.8   NaN   NaN   NaN
+2011-04-01   100.0  19.2  20.4  19.2  18.4  ...   6.7   NaN   NaN   NaN   NaN
+
+[5 rows x 13 columns] 
