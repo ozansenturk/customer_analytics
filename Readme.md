@@ -1,3 +1,17 @@
+## Customer Analytics
+
+Customer analytics in this code is composed of customer segmentation and cohort analysis.
+
+Firstly, cohort analysis was shared to share a brief idea how it looks like and what the
+benefits of it. 'retention.csv' was extracted from 'online.csv' and the related preprocessing
+bits were out of this code scope. The take away of cohort analysis section is the integration of
+'python flask' with 'plotly'. The generated 2d heatmap is interactive, handy, and free.
+
+The next section will be 'Customer Segmentation', stay tuned.
+
+Feel free to drop me an email if you have further questions.
+ozan.senturk@gmail.com
+
 ## Why is Cohort Analysis important?
 
 Transactional online retail data set used for Cohort Analysis.
