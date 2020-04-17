@@ -17,13 +17,7 @@ Python Flask and Plotly used to preprocess data and render results in an interac
 
     source venv/bin/activate
 
-    pip install -r requirements/dev.txt
-
-    flask db init
-
-    flask db migrate -m "database initialization"
-
-    flask db upgrade
+    pip install -r requirements/common.txt
 
     flask run
     ```
