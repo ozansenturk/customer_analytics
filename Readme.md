@@ -12,6 +12,9 @@ The next section will be 'Customer Segmentation', stay tuned.
 Feel free to drop me an email if you have further questions.
 ozan.senturk@gmail.com
 
+Check the link for live copy:
+[Cohort Analysis](http://analyticai.co.uk:8080/cohort)
+
 ## Why is Cohort Analysis important?
 
 Transactional online retail data set used for Cohort Analysis.
